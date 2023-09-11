@@ -1,0 +1,52 @@
+.con{
+    display: flex;
+    padding: 50px;
+}
+.left{
+    flex:1;
+}
+.content{
+    flex:4;
+}
+.search{
+    padding: 10px;
+    width:200px;
+border:1px solid gray;
+}
+h1{
+    font-size: 30px;
+    color:gray;
+    font-weight: 300;
+}
+.cats{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.cat{
+    cursor:pointer;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 5px;
+}
+.products{
+    display: flex;
+   
+    gap:10px;
+    flex-wrap: wrap;
+}
+.product{
+    width:350px;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    align-items: center;
+    
+}.name{
+    font-weight: 300;
+}
+img{
+    width:150px;
+    height:250px;
+    object-fit: contain;
+}
